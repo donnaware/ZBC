@@ -87,7 +87,7 @@ __published:	// IDE-managed Components
     TCheckBox *FilterMessagesCheckBox1;
     TBitBtn *FlashTestBitBtn1;
     TBitBtn *BIOSToFLASHBitBtn1;
-    TBitBtn *BitBtn1;
+    TBitBtn *SetROMFileBitBtn1;
     TStaticText *BIOSROMText1;
     TCheckBox *ShowToolBarCheckBox1;
     TBevel *Bevel1;
@@ -112,6 +112,7 @@ __published:	// IDE-managed Components
     TCheckBox *EnableFPGASPICheckBox1;
     TCheckBox *AutoBootCheckBox1;
     TBevel *Bevel4;
+    TOpenDialog *OpenROMDialog1;
     bool __fastcall JvHidDeviceController1Enumerate(TJvHidDevice *HidDev,const int Idx);
     void __fastcall LoggerCheckBox1Click(TObject *Sender);
     void __fastcall AboutImage1Click(TObject *Sender);
@@ -140,6 +141,7 @@ __published:	// IDE-managed Components
     void __fastcall EnableFPGASPICheckBox1Click(TObject *Sender);
     void __fastcall FLoppyToFlashBitBtn1Click(TObject *Sender);
     void __fastcall AutoBootCheckBox1Click(TObject *Sender);
+    void __fastcall SetROMFileBitBtn1Click(TObject *Sender);
 
 private:	// User declarations
 

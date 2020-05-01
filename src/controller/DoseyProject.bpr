@@ -11,15 +11,9 @@
     <RESDEPEN value="$(RESFILES) DOSeyUnit1.dfm HIDLoggerUnit1.dfm FlashTestUnit1.dfm 
       RTCUnit1.dfm FPGASPIUnit1.dfm"/>
     <LIBFILES value=""/>
-    <LIBRARIES value="bcbie.lib SimpleDialPackage.lib Package1.lib rtl.lib vcl.lib"/>
-    <SPARELIBS value="vcl.lib rtl.lib Package1.lib SimpleDialPackage.lib bcbie.lib"/>
-    <PACKAGES value="vcl.bpi rtl.bpi vclx.bpi bcbsmp.bpi dbrtl.bpi adortl.bpi vcldb.bpi 
-      qrpt.bpi bdertl.bpi vcldbx.bpi dsnap.bpi cds.bpi bdecds.bpi teeui.bpi 
-      teedb.bpi tee.bpi teeqr.bpi ibxpress.bpi visualclx.bpi visualdbclx.bpi 
-      vclie.bpi xmlrtl.bpi inet.bpi inetdbbde.bpi inetdbxpress.bpi inetdb.bpi 
-      nmfast.bpi bcbie.bpi soaprtl.bpi dclocx.bpi dbexpress.bpi dbxcds.bpi 
-      indy.bpi bcb2kaxserver.bpi Package1.bpi tmsc6.bpi VclSmp.bpi DialComp.bpi 
-      SimpleDialPackage.bpi"/>
+    <LIBRARIES value="bcbie.lib Package1.lib rtl.lib vcl.lib"/>
+    <SPARELIBS value="vcl.lib rtl.lib Package1.lib bcbie.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi"/>
     <PATHCPP value=".;"/>
     <PATHPAS value=".;"/>
     <PATHRC value=".;"/>
@@ -91,7 +85,7 @@ ProductVersion=1.0.0.0
 Comments=
 
 [Excluded Packages]
-c:\program files\borland\cbuilder6\Bin\dclite60.bpl=Borland Integrated Translation Environment
+c:\program files (x86)\borland\cbuilder6\Bin\dclite60.bpl=Borland Integrated Translation Environment
 
 [HistoryLists\hlIncludePath]
 Count=3

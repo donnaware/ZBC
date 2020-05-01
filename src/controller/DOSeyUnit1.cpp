@@ -21,7 +21,7 @@
 //----------------------------------------------------------------------------
 #pragma package(smart_init)
 #pragma link "JvHidControllerClass"
-//#pragma link "SHDocVw_OCX"
+#pragma link "SHDocVw_OCX"
 #pragma resource "*.dfm"
 //----------------------------------------------------------------------------
 TForm1 *Form1;
@@ -148,6 +148,11 @@ void __fastcall TForm1::StatusBar1DrawPanel(TStatusBar *StatusBar, TStatusPanel 
 void __fastcall TForm1::SetRBFileBitBtn1Click(TObject *Sender)
 {
     if(OpenRBFDialog1->Execute()) FGPARBFText1->Caption = OpenRBFDialog1->FileName;
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::SetROMFileBitBtn1Click(TObject *Sender)
+{
+    if(OpenROMDialog1->Execute()) BIOSROMText1->Caption = OpenROMDialog1->FileName;
 }
 //---------------------------------------------------------------------------
 void __fastcall TForm1::SetFloppyFileBitBtn1Click(TObject *Sender)
@@ -476,4 +481,5 @@ void __fastcall TForm1::AutoBootCheckBox1Click(TObject *Sender)
     FPGASPIForm1->WriteEE(BOOT_TYPE, Data);
 }
 //---------------------------------------------------------------------------
+
 
